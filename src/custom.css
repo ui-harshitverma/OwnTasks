@@ -1,52 +1,54 @@
 .list {
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        margin-top: 14px;
-    }
-
-    .list a {
-        text-decoration-line: none;
-        padding: 10px;
-        color: brown;
-    }
-
-.navbar{
-        background-color: pink;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 14px;
 }
 
-.imgContainer img{
-        width: 100%;
-        height: 100%;
+.list a {
+    text-decoration-line: none;
+    padding: 10px;
+    color: brown;
+}
+
+.navbar {
+    background-color: pink;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
 }
 
 .reactList {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .listName {
-        text-align: center;
-    }
+.listName {
+    text-align: center;
+}
 
-    .listName {
-        text-align: center;
-        padding: 20px;
-    }
-    .imgContainer {
-        padding: 15px;
-    }
-    .listName a {
-        background: pink;
-        text-decoration-line: none;
-        color: brown;
-        padding: 9px 25px;
-        border-radius: 6px;
-    }
+.listName {
+    text-align: center;
+    padding: 20px;
+}
 
-    .listName p {
-        padding: 6px 0;
-    }
+.imgContainer {
+    padding: 15px;
+}
+
+.listName a {
+    background: pink;
+    text-decoration-line: none;
+    color: brown;
+    padding: 9px 25px;
+    border-radius: 6px;
+}
+
+.listName p {
+    padding: 6px 0;
+}

@@ -5,19 +5,22 @@ function Navigation() {
         { link: "Home" },
         { link: "About" },
         { link: "Contact Us" },
-        { link: "Pages" }
-    ]
+        { link: "Pages" },
+    ];
     return (
         <>
             <nav className="navbar">
                 <ul className="list">
                     {NavLinks.map((item) => {
-                        return <li><a href="https://www.google.co.in/">{item.link}</a></li>
+                        return (
+                            <li>
+                                <a href="https://www.google.co.in/">{item.link}</a>
+                            </li>
+                        );
                     })}
                 </ul>
             </nav>
         </>
-    )
+    );
 }
-
 export default Navigation;
