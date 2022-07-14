@@ -46,7 +46,31 @@ const menuData = [
 		category: "dinner",
 		price: "67$",
 		description: "Lorem ipsum dolor sit amet, consectetur "
-	}
+	},
+	{
+		id: 7,
+		image : "https://media.istockphoto.com/photos/fried-pork-and-vegetables-on-white-background-picture-id1190330112?s=612x612",
+		name: "burger",
+		category: "evening",
+		price: "25$",
+		description: "Lorem ipsum dolor sit amet, consectetur "
+	},
+	{
+		id: 8,
+		image : "https://media.istockphoto.com/photos/fried-pork-and-vegetables-on-white-background-picture-id1190330112?s=612x612",
+		name: "paneer",
+		category: "dinner",
+		price: "60$",
+		description: "Lorem ipsum dolor sit amet, consectetur "
+	},
+	{
+		id: 9,
+		image : "https://media.istockphoto.com/photos/fried-pork-and-vegetables-on-white-background-picture-id1190330112?s=612x612",
+		name: "roll",
+		category: "dinner",
+		price: "90$",
+		description: "Lorem ipsum dolor sit amet, consectetur "
+	},
 ]
 
 

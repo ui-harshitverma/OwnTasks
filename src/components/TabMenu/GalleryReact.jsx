@@ -37,8 +37,7 @@ function GalleryReact() {
 									const { id, name, image, description, price } = item;
 									return (
 										<>
-
-											<div className='items col-12 col-md-6 col-lg-6 col-xl-4 my-1'>
+											<div className='items col-12 col-md-6 col-lg-6 col-xl-4 my-1' >
 												<div className='row Item-inside'>
 													<div className='col-12 col-md-12 col-lg-4 img-div'>
 														<img src={image} alt="img" />
