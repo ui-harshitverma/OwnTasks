@@ -6,6 +6,7 @@ import TextForm from "./components/TextForm";
 // import List from './components/List';
 import Mode from './components/Mode';
 import { useState } from 'react';
+import GalleryReact from './components/TabMenu/GalleryReact';
 
 function App() {
     const [mode, setMode] = useState('white');
@@ -29,6 +30,7 @@ function App() {
             {/* <List /> */}
             {/* <List /> */}
             <Mode />
+            <GalleryReact/>
         </>
     );
 };
