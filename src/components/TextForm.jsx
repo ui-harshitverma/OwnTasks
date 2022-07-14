@@ -25,7 +25,7 @@ const TextForm = (props) => {
         <>
             <div className="container">
                 <div className="m-4 text-center text-capitalize">
-                    <label for="exampleFormControlTextarea1" className="form-label">
+                    <label htmlFor="exampleFormControlTextarea1" className="form-label">
                         {props.title}
                     </label>
                     <textarea

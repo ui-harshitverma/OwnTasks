@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from "react-router-dom";
 
 function BNav({mode, ToggleMode, textColor}) {
  
@@ -99,7 +100,7 @@ function BNav({mode, ToggleMode, textColor}) {
                             </button>
                         </form>
                     
-                        <div class="form-check form-switch mx-4">
+                        <div className="form-check form-switch mx-4">
                             <input onClick={ToggleMode} className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
                             <label className={`form-check-label text-${textColor}`} htmlFor="flexSwitchCheckDefault">Enable {mode === 'light' ? 'dark' : 'light'} Mode</label>
                         </div>

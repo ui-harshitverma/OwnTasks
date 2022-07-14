@@ -19,7 +19,7 @@ function App() {
             document.body.style.backgroundColor = "#c1c1c1"
         }
         (textColor === 'white') ? setTextColor('dark') : setTextColor('white');
-        
+
     }
     return (
         <>
